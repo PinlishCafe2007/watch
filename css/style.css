@@ -1,0 +1,66 @@
+#circle {
+  border: 10px solid black;
+  border-radius: 0px;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  left: 550px;
+  top: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+#circle p {
+  padding-top: 300px;
+}
+#second {
+  width: 300px;
+  border: 1px solid blue;
+  position: absolute;
+  top: 392px;
+  left: 400px;
+  transform-origin: 0 0;
+  animation: second 60s linear infinite;
+}
+@keyframes second {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#min {
+  width: 200px;
+  border: 1px solid green;
+  position: absolute;
+  top: 392px;
+  left: 400px;
+  transform-origin: 0 0;
+  animation: min 3600s linear infinite;
+}
+@keyframes min {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#hour {
+  width: 100px;
+  border: 1px solid red;
+  position: absolute;
+  top: 392px;
+  left: 400px;
+  transform-origin: 0 0;
+  animation: hour 43200s linear infinite;
+}
+@keyframes hour {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
